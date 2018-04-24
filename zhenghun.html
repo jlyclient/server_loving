@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./css/default.css">
+</head>
+<body>
+<div class="server_title">
+  <img src="./img/title.png" alt="">
+  <div class="server_name">
+    <p>您好 <span style="color: #fff">55555</span></p>
+    <p class="roseword cursor server_logout">退出</p>
+  </div>
+</div>
+<div class="server_content">
+  <div class="false_list"></div>
+  <div class="server_list">
+    <p class="list_row"><a href="#"><img STYLE="margin-right: 10px" src="./img/index.png" alt="">首页</a></p>
+    <ul class="list_columnbox">
+      <li class="list_column"><a href="./manager.html">管理员</a></li>
+      <li class="list_column"><a href="./userlist.html">用户列表</a></li>
+      <li class="list_column active"><a href="#">征婚帖</a></li>
+      <li class="list_column"><a href="./yuehui.html">约会贴</a></li>
+    </ul>
+  </div>
+  <div class="server_tablepage">
+    <div class="server_searchbox">
+      <p class="searchbox_title"><img src="./img/search.png" alt="">筛选</p>
+      <div class="searchbox_center">
+        <p class="search_condition">
+          <span>ID：</span>
+          <input type="text">
+        </p>
+      </div>
+      <p class="search_btnbox">
+        <span class="search_btn cursor">搜索</span>
+      </p>
+    </div>
+  </div>
+</div>
+ <!--开通征婚-->
+<div class="openup_zhenghun popup">
+  <div class="popupshaw"></div>
+  <div class="popup_content zhenghun_content">
+    <p class="popup_close">
+      <img class="close_popup_btn" class="cursor" src="./img/close.png" alt="">
+    </p>
+    <div class="zhenghun_title">
+      您要开通“<span>音乐达人约起来</span>”征婚帖吗？
+    </div>
+    <div class="zhenghun_form">
+      <div class="zhenghun_form_row">
+        <span>原因：</span>
+        <select>
+          <option value ="1">1</option>
+          <option value ="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <div class="zhenghun_form_row">
+        <span>补充：</span>
+        <textarea name="" id="" ></textarea>
+      </div>
+      <div class="zhenghun_form_row zhenghun_btn">
+        <span class="cursor">确定</span>
+        <span class="active cursor close_popup_btn">取消</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="./js/jquery-1.12.1.js"></script>
+</html>
